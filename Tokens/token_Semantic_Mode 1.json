@@ -1,0 +1,432 @@
+{
+  "Border": {
+    "Radius": {
+      "2xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-32}"
+      },
+      "Full": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-999}"
+      },
+      "No-Radius": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-0}"
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-16}"
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-12}"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-8}"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-24}"
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-4}"
+      },
+      "xxs": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-2}"
+      }
+    },
+    "Stroke": {
+      "lg": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-2}"
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-1-5}"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-1}"
+      }
+    }
+  },
+  "Colors": {
+    "Background": {
+      "bg-Brand": {
+        "$type": "color",
+        "$value": "{Colors.Purple.500}"
+      },
+      "bg-Brand-Solid": {
+        "$type": "color",
+        "$value": "{Colors.Purple.600}"
+      },
+      "bg-Brand-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Purple.200}"
+      },
+      "bg-Brand-Subtlest": {
+        "$type": "color",
+        "$value": "{Colors.Purple.50}"
+      },
+      "bg-Default": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.50}",
+        "$description": "The primary background color used across all as screen background"
+      },
+      "bg-Disabled": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.100}",
+        "$description": "Default disabled background color for components such as disabled primary buttons and toggles."
+      },
+      "bg-Error": {
+        "$type": "color",
+        "$value": "{Colors.Red.500}",
+        "$description": "Default error state background color for components such as featured icons and metric items."
+      },
+      "bg-Error-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Red.100}",
+        "$description": "default light error state background color for components."
+      },
+      "bg-Error-solid": {
+        "$type": "color",
+        "$value": "{Colors.Red.700}",
+        "$description": "Default solid (dark) error state background color for components such as Button pressed"
+      },
+      "bg-Info": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.500}"
+      },
+      "bg-Info-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.100}"
+      },
+      "bg-Primary": {
+        "$type": "color",
+        "$value": "{Colors.Yellow.500}"
+      },
+      "bg-Primary-Solid": {
+        "$type": "color",
+        "$value": "{Colors.Yellow.600}"
+      },
+      "bg-Primary-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Yellow.200}"
+      },
+      "bg-Primary-Subtlest": {
+        "$type": "color",
+        "$value": "{Colors.Yellow.50}"
+      },
+      "bg-Success": {
+        "$type": "color",
+        "$value": "{Colors.Green.500}",
+        "$description": "Default success state background color for components such as featured icons."
+      },
+      "bg-Success-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Green.50}"
+      },
+      "bg-Surfuce-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.100}",
+        "$description": "The secondary background color used to create contrast against backgrounds."
+      },
+      "bg-Surfuce-Transpaernt": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.0-Transparent}"
+      },
+      "bg-Surfuce-White": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.0}",
+        "$description": "The primary background color (white) used across all components."
+      },
+      "bg-Surfuce-White-Transpaernt": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.0-50}"
+      },
+      "bg-Warning": {
+        "$type": "color",
+        "$value": "{Colors.Orange.500}",
+        "$description": "Default warning state background color for components such as featured icons."
+      },
+      "bg-Warning-Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Orange.100}",
+        "$description": "default light warning state background color for components."
+      },
+      "bg-overlay": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.1000-50}",
+        "$description": "Default background color for background overlays. These are useful for overlay components such as modals."
+      }
+    },
+    "Border": {
+      "Brand": {
+        "$type": "color",
+        "$value": "{Colors.Purple.500}",
+        "$description": "Default brand border color. Useful for active states in components such as input fields."
+      },
+      "Brand-Pressed": {
+        "$type": "color",
+        "$value": "{Colors.Purple.600}",
+        "$description": "Default solid (dark) brand border color. Useful for active states in components such as selected checkboxes and checkbox groups."
+      },
+      "Default": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.200}",
+        "$description": "Medium contrast borders. This is the most commonly used border color and is the default for most components. such as input fields, button groups, and checkboxes."
+      },
+      "Error": {
+        "$type": "color",
+        "$value": "{Colors.Red.500}",
+        "$description": "Default error state semantic border color. Useful for error states in components such as input fields."
+      },
+      "Solid": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.400}",
+        "$description": "High contrast borders."
+      },
+      "Subtle": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.100}",
+        "$description": "Low contrast borders useful for very subtle dividers and borders such as line and bar chart axis dividers."
+      },
+      "Success": {
+        "$type": "color",
+        "$value": "{Colors.Green.500}",
+        "$description": "Default success state semantic border color."
+      },
+      "Warning": {
+        "$type": "color",
+        "$value": "{Colors.Orange.500}",
+        "$description": "Default Warning state semantic border color."
+      }
+    },
+    "Icons": {
+      "Brand": {
+        "$type": "color",
+        "$value": "{Colors.Purple.500}",
+        "$description": "Primary brand color as featured icons."
+      },
+      "Disabled": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.400}",
+        "$description": "Default color for  icons in disabled button group buttons and input dropdown menu items."
+      },
+      "Error": {
+        "$type": "color",
+        "$value": "{Colors.Red.500}",
+        "$description": "Primary error state color for featured icons."
+      },
+      "Link-Pressed": {
+        "$type": "color",
+        "$value": "{Colors.Purple.600}",
+        "$description": "Primary brand color as featured icons when pressed"
+      },
+      "Primary": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.900}",
+        "$description": "Highest contrast elements such as icons."
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.700}",
+        "$description": "Medium contrast elements such as icons."
+      },
+      "Success": {
+        "$type": "color",
+        "$value": "{Colors.Green.500}",
+        "$description": "Primary success state color for featured icons."
+      },
+      "Tertiary": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.500}",
+        "$description": "Lowest contrast elements such as icons."
+      },
+      "Warning": {
+        "$type": "color",
+        "$value": "{Colors.Orange.500}",
+        "$description": "Primary warning state color for featured icons."
+      },
+      "White": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.0}"
+      }
+    },
+    "Text": {
+      "Black": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.1000}",
+        "$description": "using on white backgrounds"
+      },
+      "Brand-link": {
+        "$type": "color",
+        "$value": "{Colors.Purple.500}",
+        "$description": "Primary brand text useful for headings  or links"
+      },
+      "Brand-link-pressed": {
+        "$type": "color",
+        "$value": "{Colors.Purple.600}",
+        "$description": "Primary brand text useful for headings  or links when user pressed"
+      },
+      "Disabled": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.400}",
+        "$description": "Default color for disabled text such as disabled input fields or buttons."
+      },
+      "Error": {
+        "$type": "color",
+        "$value": "{Colors.Red.500}",
+        "$description": "Default error state semantic text color (e.g. input field error states."
+      },
+      "Error-Solid": {
+        "$type": "color",
+        "$value": "{Colors.Red.800}"
+      },
+      "Placeholder": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.400}",
+        "$description": "Default color for placeholder text such as input field placeholders."
+      },
+      "Primary": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.950}",
+        "$description": "Primary text such as page headings or body text."
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.700}",
+        "$description": "Secondary text such as labels and section headings or description."
+      },
+      "Success": {
+        "$type": "color",
+        "$value": "{Colors.Green.500}",
+        "$description": "Default success state semantic text color."
+      },
+      "Success-Solid": {
+        "$type": "color",
+        "$value": "{Colors.Green.800}"
+      },
+      "Tertiary": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.500}",
+        "$description": "Tertiary text for such as supporting text and paragraph text."
+      },
+      "Text Warning-Solid": {
+        "$type": "color",
+        "$value": "{Colors.Orange.800}"
+      },
+      "Warning": {
+        "$type": "color",
+        "$value": "{Colors.Orange.500}",
+        "$description": "Default warning state semantic text color."
+      },
+      "White": {
+        "$type": "color",
+        "$value": "{Colors.Neutral.0}",
+        "$description": "using on brand on dark backgrounds"
+      }
+    }
+  },
+  "Layout": {
+    "Grid": {
+      "Gutters-mobile": {
+        "$type": "number",
+        "$value": "{Layout.Space.lg}"
+      },
+      "Margin-mobile": {
+        "$type": "number",
+        "$value": "{Layout.Space.xl}"
+      }
+    },
+    "Space": {
+      "2xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-32}"
+      },
+      "3xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-40}"
+      },
+      "4xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-48}"
+      },
+      "5xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-56}"
+      },
+      "No-Space": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-0}"
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-16}"
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-12}"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-8}"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-24}"
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-4}"
+      },
+      "xxs": {
+        "$type": "number",
+        "$value": "{Spacing.Spc-2}"
+      }
+    }
+  },
+  "Typography": {
+    "Heading": {
+      "Large": {
+        "Font-Height": {
+          "$type": "number",
+          "$value": "{Typography.Line-Height.Height-48}"
+        },
+        "Font-Weight": {
+          "$type": "number",
+          "$value": "{Typography.Weight.Bold}"
+        },
+        "Font-family": {
+          "$type": "string",
+          "$value": "{Typography.Family.DIN Next LT Arabic}"
+        },
+        "Font-size": {
+          "$type": "number",
+          "$value": "{Typography.Size.size-32}"
+        }
+      },
+      "Medium": {
+        "Font-Height": {
+          "$type": "number",
+          "$value": "{Typography.Line-Height.Height-40}"
+        },
+        "Font-Weight": {
+          "$type": "number",
+          "$value": "{Typography.Weight.Bold}"
+        },
+        "Font-family": {
+          "$type": "string",
+          "$value": "{Typography.Family.DIN Next LT Arabic}"
+        },
+        "Font-size": {
+          "$type": "number",
+          "$value": "{Typography.Size.size-28}"
+        }
+      }
+    }
+  }
+}
