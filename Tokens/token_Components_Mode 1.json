@@ -1,0 +1,470 @@
+{
+  "Buttons": {
+    "Border": {
+      "radius-md": {
+        "$type": "number",
+        "$value": "{Border.Radius.md}"
+      },
+      "radius-sm": {
+        "$type": "number",
+        "$value": "{Border.Radius.sm}"
+      },
+      "stroke-default": {
+        "$type": "number",
+        "$value": "{Border.Stroke.sm}"
+      }
+    },
+    "Color": {
+      "Background": {
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Disabled}"
+        },
+        "Primary-Danger-Focus": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Error-solid}"
+        },
+        "Primary-Danger-default": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Error}"
+        },
+        "Primary-Focus": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Brand-Solid}"
+        },
+        "Primary-default": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Brand}"
+        },
+        "Secondary-Pressed": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Brand-Solid}"
+        },
+        "Secondary-default": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Brand-Subtlest}"
+        },
+        "Tertiary-Pressed": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Surfuce-Transpaernt}"
+        },
+        "Tertiary-default": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Surfuce-Transpaernt}"
+        }
+      },
+      "Border": {
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Border.Default}"
+        },
+        "Primary-Focus": {
+          "$type": "color",
+          "$value": "{Colors.Border.Brand-Pressed}"
+        },
+        "Primary-default": {
+          "$type": "color",
+          "$value": "{Colors.Border.Brand}"
+        }
+      },
+      "Icons": {
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Disabled}"
+        },
+        "Link-Focus": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Link-Pressed}"
+        },
+        "Link-default": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Brand}"
+        },
+        "Primary-default": {
+          "$type": "color",
+          "$value": "{Colors.Icons.White}"
+        }
+      },
+      "Text": {
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Text.Disabled}"
+        },
+        "Link-default": {
+          "$type": "color",
+          "$value": "{Colors.Text.Brand-link}"
+        },
+        "Link-pressed": {
+          "$type": "color",
+          "$value": "{Colors.Text.Brand-link-pressed}"
+        },
+        "Primary-Focus": {
+          "$type": "color",
+          "$value": "{Colors.Text.White}"
+        },
+        "Primary-default": {
+          "$type": "color",
+          "$value": "{Colors.Text.White}"
+        },
+        "Secondary-Pressed": {
+          "$type": "color",
+          "$value": "{Colors.Text.White}"
+        },
+        "Secondary-default": {
+          "$type": "color",
+          "$value": "{Colors.Text.Brand-link}"
+        },
+        "Tertiary-Pressed": {
+          "$type": "color",
+          "$value": "{Colors.Text.Brand-link-pressed}"
+        },
+        "Tertiary-default": {
+          "$type": "color",
+          "$value": "{Colors.Text.Brand-link}"
+        }
+      }
+    }
+  },
+  "Input": {
+    "Border": {
+      "radius-default": {
+        "$type": "number",
+        "$value": "{Border.Radius.md}"
+      },
+      "stroke-default": {
+        "$type": "number",
+        "$value": "{Border.Stroke.sm}"
+      }
+    },
+    "Color": {
+      "Background": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Surfuce-White}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Disabled}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Error-Subtle}"
+        }
+      },
+      "Border": {
+        "Active": {
+          "$type": "color",
+          "$value": "{Colors.Yellow.500}"
+        },
+        "Default": {
+          "$type": "color",
+          "$value": "{Colors.Border.Default}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Border.Default}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Border.Error}"
+        }
+      },
+      "Text": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Colors.Text.Primary}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Text.Disabled}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Text.Error}"
+        },
+        "Placholder": {
+          "$type": "color",
+          "$value": "{Colors.Text.Placeholder}"
+        },
+        "msg-default": {
+          "$type": "color",
+          "$value": "{Colors.Text.Tertiary}"
+        }
+      },
+      "icon": {
+        "Default": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Secondary}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Disabled}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Error}"
+        },
+        "msg-default": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Tertiary}"
+        }
+      }
+    }
+  },
+  "Snackbar": {
+    "Border": {
+      "radius-defualt": {
+        "$type": "number",
+        "$value": "{Border.Radius.md}"
+      },
+      "stroke-default": {
+        "$type": "number",
+        "$value": "{Border.Stroke.sm}"
+      }
+    },
+    "Color": {
+      "Close-icon": {
+        "$type": "color",
+        "$value": "{Colors.Icons.Primary}"
+      },
+      "Text": {
+        "$type": "color",
+        "$value": "{Colors.Text.Primary}"
+      },
+      "bg-Error": {
+        "$type": "color",
+        "$value": "{Colors.Background.bg-Error-Subtle}"
+      },
+      "bg-Info": {
+        "$type": "color",
+        "$value": "{Colors.Background.bg-Brand-Subtlest}"
+      },
+      "bg-Success": {
+        "$type": "color",
+        "$value": "{Colors.Background.bg-Success-Subtle}"
+      },
+      "bg-Warning": {
+        "$type": "color",
+        "$value": "{Colors.Background.bg-Warning-Subtle}"
+      },
+      "border-Error": {
+        "$type": "color",
+        "$value": "{Colors.Border.Error}"
+      },
+      "border-Info": {
+        "$type": "color",
+        "$value": "{Colors.Border.Brand}"
+      },
+      "border-Success": {
+        "$type": "color",
+        "$value": "{Colors.Border.Success}"
+      },
+      "border-Warning": {
+        "$type": "color",
+        "$value": "{Colors.Border.Warning}"
+      },
+      "icon-Error": {
+        "$type": "color",
+        "$value": "{Colors.Icons.Error}"
+      },
+      "icon-Info": {
+        "$type": "color",
+        "$value": "{Colors.Icons.Brand}"
+      },
+      "icon-Success": {
+        "$type": "color",
+        "$value": "{Colors.Icons.Success}"
+      },
+      "icon-Warning": {
+        "$type": "color",
+        "$value": "{Colors.Icons.Warning}"
+      }
+    }
+  },
+  "Tags": {
+    "Colors": {
+      "Background": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Brand-Subtlest}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Error-Subtle}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Surfuce-Subtle}"
+        },
+        "Success": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Success-Subtle}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Background.bg-Warning-Subtle}"
+        }
+      },
+      "Border": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{Colors.Border.Brand}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Border.Error}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Colors.Border.Default}"
+        },
+        "Success": {
+          "$type": "color",
+          "$value": "{Colors.Border.Success}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Border.Warning}"
+        }
+      },
+      "Icon": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Brand}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Error}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Tertiary}"
+        },
+        "Success": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Success}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Icons.Warning}"
+        }
+      },
+      "Text": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{Colors.Text.Brand-link}"
+        },
+        "Error": {
+          "$type": "color",
+          "$value": "{Colors.Text.Error}"
+        },
+        "Info": {
+          "$type": "color",
+          "$value": "{Colors.Text.Tertiary}"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "{Colors.Text.Primary}"
+        },
+        "Success": {
+          "$type": "color",
+          "$value": "{Colors.Text.Success}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Text.Warning}"
+        }
+      }
+    }
+  },
+  "Utilities": {
+    "Checkbox": {
+      "Color": {
+        "Background": {
+          "Active": {
+            "$type": "color",
+            "$value": "{Colors.Background.bg-Brand-Subtlest}"
+          },
+          "Default": {
+            "$type": "color",
+            "$value": "{Colors.Background.bg-Surfuce-White}"
+          }
+        },
+        "Border": {
+          "Active": {
+            "$type": "color",
+            "$value": "{Colors.Border.Brand}"
+          },
+          "Default": {
+            "$type": "color",
+            "$value": "{Colors.Border.Default}"
+          }
+        }
+      }
+    },
+    "Selectors": {
+      "Color": {
+        "Background": {
+          "Active": {
+            "$type": "color",
+            "$value": "{Colors.Background.bg-Brand-Subtlest}"
+          },
+          "Default": {
+            "$type": "color",
+            "$value": "{Colors.Background.bg-Surfuce-White}"
+          }
+        },
+        "Border": {
+          "Active": {
+            "$type": "color",
+            "$value": "{Colors.Border.Brand}"
+          },
+          "Default": {
+            "$type": "color",
+            "$value": "{Colors.Border.Default}"
+          }
+        },
+        "Icon": {
+          "Active": {
+            "$type": "color",
+            "$value": "{Colors.Icons.Brand}"
+          },
+          "Default": {
+            "$type": "color",
+            "$value": "{Colors.Text.Primary}"
+          },
+          "Filled Bg - Active": {
+            "$type": "color",
+            "$value": "{Colors.Background.bg-Brand}"
+          },
+          "Filled Bg - Default": {
+            "$type": "color",
+            "$value": "{Colors.Background.bg-Brand-Subtlest}"
+          },
+          "Inverse - Active": {
+            "$type": "color",
+            "$value": "{Colors.Icons.White}"
+          },
+          "Inverse - Default": {
+            "$type": "color",
+            "$value": "{Colors.Icons.Link-Pressed}"
+          }
+        },
+        "Text": {
+          "Main Text": {
+            "$type": "color",
+            "$value": "{Colors.Text.Primary}"
+          },
+          "SubText - Active": {
+            "$type": "color",
+            "$value": "{Colors.Text.Primary}"
+          },
+          "SubText - Default": {
+            "$type": "color",
+            "$value": "{Colors.Text.Secondary}"
+          }
+        }
+      }
+    }
+  }
+}
